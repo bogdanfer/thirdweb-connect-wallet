@@ -1,0 +1,45 @@
+{
+  "name": "thirdweb-connect",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@thirdweb-dev/react": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.55.0",
+    "truncate-eth-address": "^1.0.2",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.2",
+    "web3-eth": "^1.8.2"
+  },
+  "scripts": {
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "INLINE_RUNTIME_CHUNK=false DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
